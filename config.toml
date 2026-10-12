@@ -7,11 +7,14 @@ node = "lts"
 codex = "latest"
 hunk = "latest"
 uv = "latest"
-"pipx:apm-cli" = { depends = "uv", version = "latest" }
+pi = "latest"
+yazi = "latest"
+"npm:ntn" = "latest"
+"pypi:apm-cli" = "latest"
 
 [bootstrap.packages]
-"brew-cask:chatgpt" = "latest"
 "brew-cask:visual-studio-code" = "latest"
+"brew-cask:chatgpt" = "latest"
 
 [settings]
 # 該当ツールの慣用ファイルを見ない
